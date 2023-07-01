@@ -4,32 +4,58 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>Ayvalık Zeytincilik</title>
     <link href="Assets/Css/MasterPage.css" rel="stylesheet" />
     <link href="Assets/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Assets/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="Assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <div class="navbar navbar-expand-lg .navbarHeaderColor">
+        <div class="navbarHeaderColor">
+            <div class="container navbar navbar-expand-lg d-block">
                 <a href="#">Anasayfa</a>
-                <a href="#">Zeytinyağı</a>
-                <a href="#">Siyah Zeytin</a>
-                <a href="#">Yeşil Zeytin</a>
-                <a href="#">Banka Hesap Numaraları</a>
-                <a href="#">Müşteri Hizmetleri</a>
-                <a href="https://www.facebook.com/hasanhuseyin.badak/"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://twitter.com/hhbadak"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.youtube.com/@HASANBADAKK"><i class="fa-brands fa-youtube"></i></a>
-                <a href="https://www.instagram.com/hhbadak/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#">| Zeytinyağı</a>
+                <a href="#">| Siyah Zeytin</a>
+                <a href="#">| Yeşil Zeytin</a>
+                <a href="#">| Banka Hesap Numaraları</a>
+                <a href="#">| Müşteri Hizmetleri</a>
+                <div class="socialMedia">
+                    <a href="https://www.facebook.com/hasanhuseyin.badak/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/hhbadak"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/@HASANBADAKK"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/hhbadak/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
             </div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
         </div>
+        <div class="container navbarBody col-md-12">
+            <div class="row">
+                <div class="col-md-2 mt-2">
+                    <img src="Assets/Images/Logo/HHBadakLOGO.jpg" />
+                </div>
+                <div class="col-md-4 mt-5 ms-auto">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Hangi Ürünü Aramıştınız?" aria-label="Products" aria-describedby="basic-addon2" />
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary">Ara</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mt-5">
+                    <button class="btn btn-light p-2"><i class="fa-regular fa-user"></i>&nbsp Kayıt Ol/Giriş</button>
+                </div>
+                <div class="col-md-2 mt-5">
+                    <button class="btn btn-light p-2"><i class="fa-sharp fa-light fa-basket-shopping"></i>&nbsp Sepetim</button>
+                </div>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
     </form>
 </body>
 <script src="Assets/bootstrap-5.3.0/js/bootstrap.min.js"></script>
 <script src="Assets/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="Assets/fontawesome/js/all.min.js"></script>
 </html>

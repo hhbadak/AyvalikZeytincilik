@@ -3,5 +3,14 @@
 }
 
 .navbarHeaderColor {
-    background-color: #FFFFFF;
+    background-color: #2D554C;
+    color: white !important;
+}
+
+.socialMedia {
+    float: right;
+}
+
+.navbarBody {
+    height: 179px;
 }
