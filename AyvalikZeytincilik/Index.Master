@@ -16,24 +16,30 @@
     <form id="form1" runat="server">
         <div class="navbarHeaderColor">
             <div class="container navbar navbar-expand-lg d-block">
-                <a href="#">Anasayfa</a>
-                <a href="#">| Zeytinyağı</a>
-                <a href="#">| Siyah Zeytin</a>
-                <a href="#">| Yeşil Zeytin</a>
-                <a href="#">| Banka Hesap Numaraları</a>
-                <a href="#">| Müşteri Hizmetleri</a>
+                <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
+                    href="#">Anasayfa</a>
+                <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
+                    href="#">|&nbsp&nbsp&nbsp Zeytinyağı</a>
+                <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
+                    href="#">|&nbsp&nbsp&nbsp Siyah Zeytin</a>
+                <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
+                    href="#">|&nbsp&nbsp&nbsp Yeşil Zeytin</a>
+                <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
+                    href="#">|&nbsp&nbsp&nbsp Banka Hesap Numaraları</a>
+                <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
+                    href="#">|&nbsp&nbsp&nbsp Müşteri Hizmetleri</a>
                 <div class="socialMedia">
-                    <a href="https://www.facebook.com/hasanhuseyin.badak/"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/hhbadak"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="https://www.youtube.com/@HASANBADAKK"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="https://www.instagram.com/hhbadak/"><i class="fa-brands fa-instagram"></i></a>
+                    <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;" href="https://www.facebook.com/hasanhuseyin.badak/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;" href="https://twitter.com/hhbadak">|&nbsp&nbsp&nbsp<i class="fa-brands fa-twitter"></i></a>
+                    <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;" href="https://www.youtube.com/@HASANBADAKK">|&nbsp&nbsp&nbsp<i class="fa-brands fa-youtube"></i></a>
+                    <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;" href="https://www.instagram.com/hhbadak/">|&nbsp&nbsp&nbsp<i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
         </div>
         <div class="container navbarBody col-md-12">
             <div class="row">
-                <div class="col-md-2 mt-2">
-                    <img src="Assets/Images/Logo/HHBadakLOGO.jpg" />
+                <div class="col-md-2 mt-4 mb-4">
+                    <img src="Assets/Images/Logo/HHBadakLOGO.jpg" height="171" />
                 </div>
                 <div class="col-md-4 mt-5 ms-auto">
                     <div class="input-group">
