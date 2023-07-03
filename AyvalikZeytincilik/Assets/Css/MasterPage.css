@@ -6,18 +6,15 @@
     background-color: #2D554C;
 }
 
-.linkStyle {
-}
 
-    .linkStyle a {
+    .navbarHeaderColor .container .linkStyle {
         color: white;
         text-decoration: none;
         font-size: 12pt;
         font-weight: bold;
     }
 
-.socialMedia {
-    float: right;
+.linkStyle {
 }
 
 .navbarBody {

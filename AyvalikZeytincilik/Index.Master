@@ -9,30 +9,37 @@
     <link href="Assets/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet" />
     <link href="Assets/fontawesome/css/all.min.css" rel="stylesheet" />
     <link href="Assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <script src="Assets/angular-1.8.2/angular.min.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
         <div class="navbarHeaderColor">
-            <div class="container navbar navbar-expand-lg d-block">
-                <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
-                    href="#">Anasayfa</a>
-                <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
-                    href="#">|&nbsp&nbsp&nbsp Zeytinyağı</a>
-                <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
-                    href="#">|&nbsp&nbsp&nbsp Siyah Zeytin</a>
-                <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
-                    href="#">|&nbsp&nbsp&nbsp Yeşil Zeytin</a>
-                <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
-                    href="#">|&nbsp&nbsp&nbsp Banka Hesap Numaraları</a>
-                <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
-                    href="#">|&nbsp&nbsp&nbsp Müşteri Hizmetleri</a>
-                <div class="socialMedia">
-                    <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;" href="https://www.facebook.com/hasanhuseyin.badak/"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;" href="https://twitter.com/hhbadak">|&nbsp&nbsp&nbsp<i class="fa-brands fa-twitter"></i></a>
-                    <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;" href="https://www.youtube.com/@HASANBADAKK">|&nbsp&nbsp&nbsp<i class="fa-brands fa-youtube"></i></a>
-                    <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;" href="https://www.instagram.com/hhbadak/">|&nbsp&nbsp&nbsp<i class="fa-brands fa-instagram"></i></a>
+            <div class="container">
+                <div class="row">
+                    <div class="navbar col-lg-8 d-block">
+                        <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
+                            href="#">Anasayfa</a>
+                        <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
+                            href="#">|&nbsp&nbsp&nbsp Zeytinyağı</a>
+                        <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
+                            href="#">|&nbsp&nbsp&nbsp Siyah Zeytin</a>
+                        <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
+                            href="#">|&nbsp&nbsp&nbsp Yeşil Zeytin</a>
+                        <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
+                            href="#">|&nbsp&nbsp&nbsp Banka Hesap Numaraları</a>
+                        <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
+                            href="#">|&nbsp&nbsp&nbsp Müşteri Hizmetleri</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="float-end mt-1">
+                            <a class="p-1 text-decoration-none" style="color: white; font-size: 14pt; font-weight: bold;" href="https://www.facebook.com/hasanhuseyin.badak/"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="p-1 text-decoration-none" style="color: white; font-size: 14pt; font-weight: bold;" href="https://twitter.com/hhbadak">|&nbsp&nbsp<i class="fa-brands fa-twitter"></i></a>
+                            <a class="p-1 text-decoration-none" style="color: white; font-size: 14pt; font-weight: bold;" href="https://www.youtube.com/@HASANBADAKK">|&nbsp&nbsp<i class="fa-brands fa-youtube"></i></a>
+                            <a class="p-1 text-decoration-none" style="color: white; font-size: 14pt; font-weight: bold;" href="https://www.instagram.com/hhbadak/">|&nbsp&nbsp<i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -50,10 +57,10 @@
                     </div>
                 </div>
                 <div class="col-md-2 mt-5">
-                    <button class="btn btn-light p-2"><i class="fa-regular fa-user"></i>&nbsp Kayıt Ol/Giriş</button>
+                    <button class="btn btn-light p-4 text-success"><i class="fa-regular fa-user"></i>&nbsp Kayıt Ol/Giriş</button>
                 </div>
-                <div class="col-md-2 mt-5">
-                    <button class="btn btn-light p-2"><i class="fa-sharp fa-light fa-basket-shopping"></i>&nbsp Sepetim</button>
+                <div class="col-md-2 mt-5 colorOlive">
+                    <button class="btn btn-light p-4 text-success"><i class="fa-solid fa-basket-shopping"></i>&nbsp Sepetim</button>
                 </div>
             </div>
         </div>

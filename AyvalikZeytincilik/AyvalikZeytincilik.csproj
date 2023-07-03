@@ -5135,6 +5135,7 @@
     <Content Include="Assets\angular-1.8.2\errors.json" />
     <Content Include="Assets\angular-1.8.2\version.json" />
     <Content Include="Index.Master" />
+    <Content Include="deneme.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
