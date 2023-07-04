@@ -20,3 +20,23 @@
 .navbarBody {
     height: 179px;
 }
+
+.menuBackground {
+}
+
+.header-bottom {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-bottom: 3rem;
+    height: 4rem;
+    background-image: url('../images/background-svg/headerbottom-bg.svg');
+}
+
+.deneme {
+    color: white;
+    text-decoration: none;
+    display: inline-table;
+    width: 3%;
+    margin-left: 3%;
+}

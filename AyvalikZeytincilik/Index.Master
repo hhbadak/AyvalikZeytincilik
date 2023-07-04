@@ -6,9 +6,11 @@
 <head runat="server">
     <title>Ayvalık Zeytincilik</title>
     <link href="Assets/Css/MasterPage.css" rel="stylesheet" />
+    <link href="Assets/JQuery/assets/css/Slider.css" rel="stylesheet" />
     <link href="Assets/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet" />
     <link href="Assets/fontawesome/css/all.min.css" rel="stylesheet" />
     <link href="Assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <script src="Assets/JQuery/assets/scripts/jquery-3.6.4.min.js"></script>
     <script src="Assets/angular-1.8.2/angular.min.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -50,20 +52,60 @@
                 </div>
                 <div class="col-md-4 mt-5 ms-auto">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Hangi Ürünü Aramıştınız?" aria-label="Products" aria-describedby="basic-addon2" />
+                        <input type="text" class="form-control" style="border-top-right-radius: 0; border-bottom-right-radius: 0;" placeholder="Hangi Ürünü Aramıştınız?" aria-label="Products" aria-describedby="basic-addon2" />
                         <div class="input-group-append">
-                            <button class="btn btn-outline-secondary">Ara</button>
+                            <button class="btn btn-success text-white p-3 btn-outline-secondary" style="border-top-left-radius: 0; border-bottom-left-radius: 0;">Ara</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-2 mt-5">
-                    <button class="btn btn-light p-4 text-success"><i class="fa-regular fa-user"></i>&nbsp Kayıt Ol/Giriş</button>
+                    <button class="btn float-end btn-light p-3 text-success"><i class="fa-regular fa-user"></i>&nbsp Kayıt Ol/Giriş</button>
                 </div>
                 <div class="col-md-2 mt-5 colorOlive">
-                    <button class="btn btn-light p-4 text-success"><i class="fa-solid fa-basket-shopping"></i>&nbsp Sepetim</button>
+                    <button class="btn btn-light p-3 text-success"><i class="fa-solid fa-basket-shopping"></i>&nbsp Sepetim</button>
                 </div>
             </div>
         </div>
+        <br />
+        <br />
+        <section class="header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar d-block">
+                        <a href="#" class="deneme">Zeytinyağı
+                        </a>
+                        <a href="#" class="deneme">Yeşil Zeytin
+                        </a>
+                        <a href="#" class="deneme">Siyah Zeytin
+                        </a>
+                        <a href="#" class="deneme">Dolgulu Zeytin Çeşitleri
+                        </a>
+
+                        <a href="#" class="deneme">Hediyelik Zeytinyağı
+                        </a>
+
+                        <a href="#" class="deneme">Zeytin Lokumu
+                        </a>
+
+                        <a href="#" class="deneme">Reçeller, Tarhana ve Sirke
+                        </a>
+
+                        <a href="#" class="deneme">Zeytinyağı Sabunu Çeşitleri
+                        </a>
+
+                        <a href="#" class="deneme">Zeytin Yaprağı Çayı
+                        </a>
+
+                        <a href="#" class="deneme">Cilt Bakım Ürünleri
+                        </a>
+
+                        <a href="#" class="deneme">Zeytin Çiçeği ve Diğer Kolonyalar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
     </form>

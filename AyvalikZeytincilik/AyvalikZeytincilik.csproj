@@ -4796,6 +4796,9 @@
     <Content Include="Assets\fontawesome\svgs\solid\z.svg" />
     <Content Include="Assets\Images\Background-Svg\body-bg.svg" />
     <Content Include="Assets\Images\Background-Svg\footer-bg.svg" />
+    <Content Include="Assets\Images\Background-Svg\headerbottom-bg.svg" />
+    <Content Include="Assets\Images\Carousel-Slide\slide-1.jpeg" />
+    <Content Include="Assets\Images\Carousel-Slide\slide-2.jpeg" />
     <Content Include="Assets\Images\Logo\HHBadakLOGO.jpg" />
     <Content Include="Assets\JQuery\assets\css\Slider.css" />
     <Content Include="Assets\JQuery\assets\scripts\dene.js" />
