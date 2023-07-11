@@ -4810,6 +4810,9 @@
     <Content Include="Assets\Images\Logo\pay.png" />
     <Content Include="Assets\Images\Logo\security.png" />
     <Content Include="Assets\Images\Logo\winner.png" />
+    <Content Include="Assets\Images\Products\AC0002-1.jpeg" />
+    <Content Include="Assets\Images\Products\AC0002-2.jpeg" />
+    <Content Include="Assets\Images\Products\AD0003-2.jpeg" />
     <Content Include="Assets\JQuery\assets\css\Slider.css" />
     <Content Include="Assets\JQuery\assets\scripts\dene.js" />
     <Content Include="Assets\JQuery\assets\scripts\jquery-3.6.4.min.js" />

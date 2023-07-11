@@ -17,29 +17,26 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="navbarHeaderColor">
-            <div class="container">
-                <div class="row">
-                    <div class="navbar col-lg-8 d-block">
-                        <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
-                            href="#">Anasayfa</a>
-                        <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
-                            href="#">|&nbsp&nbsp&nbsp Zeytinyağı</a>
-                        <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
-                            href="#">|&nbsp&nbsp&nbsp Siyah Zeytin</a>
-                        <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
-                            href="#">|&nbsp&nbsp&nbsp Yeşil Zeytin</a>
-                        <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
-                            href="#">|&nbsp&nbsp&nbsp Banka Hesap Numaraları</a>
-                        <a style="margin-left: 1%; color: white; text-decoration: none; font-size: 12pt; font-weight: bold;"
-                            href="#">|&nbsp&nbsp&nbsp Müşteri Hizmetleri</a>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="float-end mt-1">
-                            <a class="p-1 text-decoration-none" style="color: white; font-size: 14pt; font-weight: bold;" href="https://www.facebook.com/hasanhuseyin.badak/"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a class="p-1 text-decoration-none" style="color: white; font-size: 14pt; font-weight: bold;" href="https://twitter.com/hhbadak">|&nbsp&nbsp<i class="fa-brands fa-twitter"></i></a>
-                            <a class="p-1 text-decoration-none" style="color: white; font-size: 14pt; font-weight: bold;" href="https://www.youtube.com/@HASANBADAKK">|&nbsp&nbsp<i class="fa-brands fa-youtube"></i></a>
-                            <a class="p-1 text-decoration-none" style="color: white; font-size: 14pt; font-weight: bold;" href="https://www.instagram.com/hhbadak/">|&nbsp&nbsp<i class="fa-brands fa-instagram"></i></a>
+        <div class="header-navbar">
+            <div class="colors">
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar nav col-lg-7 d-block">
+                            <a href="#">Anasayfa</a>
+                            <a href="#">|&nbsp&nbsp&nbsp Zeytinyağı</a>
+                            <a href="#">|&nbsp&nbsp&nbsp Siyah Zeytin</a>
+                            <a href="#">|&nbsp&nbsp&nbsp Yeşil Zeytin</a>
+                            <a href="#">|&nbsp&nbsp&nbsp Banka Hesap Numaraları</a>
+                            <a href="#">|&nbsp&nbsp&nbsp Müşteri Hizmetleri</a>
+                        </nav>
+                        <div class="col-lg-5">
+                            <div class="mt-1 social">
+                                <a href="https://www.facebook.com/hasanhuseyin.badak/"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/hhbadak">|&nbsp&nbsp<i class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/@HASANBADAKK">|&nbsp&nbsp<i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://www.instagram.com/hhbadak/">|&nbsp&nbsp<i class="fa-brands fa-instagram"></i></a>
+                                <a href="#">|&nbsp&nbsp HHBadakBlog</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -69,38 +66,29 @@
         <br />
         <br />
         <section class="header-bottom">
-            <div class="container">
+            <div class="container" style="height: 100%;">
                 <div class="row">
-                    <div class="navbar d-block">
-                        <a href="#" class="deneme">Zeytinyağı
-                        </a>
-                        <a href="#" class="deneme">Yeşil Zeytin
-                        </a>
-                        <a href="#" class="deneme">Siyah Zeytin
-                        </a>
-                        <a href="#" class="deneme">Dolgulu Zeytin Çeşitleri
-                        </a>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-2 container-navbar">
+                                <a href="#">Zeytinyağı
+                                </a>
+                            </div>
+                            <div class="col-lg-2 container-navbar">
+                                <a href="#">Zeytin
+                                </a>
+                            </div>
+                            <div class="col-lg-2 container-navbar">
+                                <a href="#">Zeytin Lokumu
+                                </a>
+                            </div>
+                            <div class="col-lg-2 container-navbar">
+                                <a href="#">Cilt Bakım Ürünleri
+                                </a>
+                            </div>
+                        </div>
 
-                        <a href="#" class="deneme">Hediyelik Zeytinyağı
-                        </a>
 
-                        <a href="#" class="deneme">Zeytin Lokumu
-                        </a>
-
-                        <a href="#" class="deneme">Reçeller, Tarhana ve Sirke
-                        </a>
-
-                        <a href="#" class="deneme">Zeytinyağı Sabunu Çeşitleri
-                        </a>
-
-                        <a href="#" class="deneme">Zeytin Yaprağı Çayı
-                        </a>
-
-                        <a href="#" class="deneme">Cilt Bakım Ürünleri
-                        </a>
-
-                        <a href="#" class="deneme">Zeytin Çiçeği ve Diğer Kolonyalar
-                        </a>
                     </div>
                 </div>
             </div>

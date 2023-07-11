@@ -2,17 +2,38 @@
     background-image: url('../images/background-svg/body-bg.svg');
 }
 
-.navbarHeaderColor {
-    background-color: #2D554C;
+.header-navbar {
+    height: 18px;
 }
 
-
-    .navbarHeaderColor .container .linkStyle {
-        color: white;
-        text-decoration: none;
-        font-size: 12pt;
-        font-weight: bold;
+    .header-navbar .colors {
+        background-color: #2D554C;
     }
+
+        .header-navbar .colors .container .row .navbar a {
+            margin-left: 1%;
+            color: white;
+            text-decoration: none;
+            font-size: 10pt;
+            font-weight: bold;
+        }
+
+    .header-navbar .social {
+    }
+
+        .header-navbar .social a {
+            padding: 1%;
+            text-decoration: none;
+            color: white;
+            font-size: 14pt;
+        }
+
+.navbarHeaderColor .container .linkStyle {
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: bold;
+}
 
 .linkStyle {
 }
@@ -39,3 +60,12 @@
     height: 6.5rem;
     background-image: url('../images/background-svg/shopping-bg.svg');
 }
+
+.container-navbar {
+    margin-top: 0.5%;
+}
+
+    .container-navbar a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
