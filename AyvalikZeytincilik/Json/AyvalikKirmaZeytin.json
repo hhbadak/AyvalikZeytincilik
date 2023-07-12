@@ -1,15 +1,126 @@
 {
-  "KirmaZeytin": [
+  "Zeytinyagi": [
     {
-      "StockCode": "AA0009",
-      "Category": "Zeytinyağı",
-      "Price": "700 ₺",
-      "Description": "Taş Baskı Soğuk Sıkım Naturel Birinci Yemeklik Ayvalık Zeytinyağı 5 lt Teneke",
-      "Image": "Assets/Images/Products/AC0002-1.jpeg",
-      "Image2": "Assets/Images/Products/AC0002-2.jpeg",
-      "Image3": "Assets/Images/Products/AC0003-1.jpeg",
+      "StockCode": "AA0002",
+      "Category": "Zeytinyağı , Ayvalık Zeytinyağı , Cunda Zeytinyağı , Naturel Sızma Zeytinyağı",
+      "Price": "180 ₺",
+      "Description": "Taş Baskı Soğuk Sıkım Erken Hasat Natürel Sızma Ayvalık Zeytinyağı 1 Lt Teneke",
+      "Image": "Assets/Images/Products/AA0002-1.jpg",
+      "Image2": "Assets/Images/Products/AA0002-2.jpg",
+      "Image3": "Assets/Images/Products/AA0002-3.jpg",
       "ProductCarouselID": "carouselID",
       "productCarousel": "#carousel"
+    },
+    {
+      "StockCode": "AA0003",
+      "Category": "Zeytinyağı , Ayvalık Zeytinyağı , Cunda Zeytinyağı , Naturel Sızma Zeytinyağı",
+      "Price": "340 ₺",
+      "Description": "2 Lt Teneke Taş Baskı Soğuk Sıkım Erken Hasat Natürel Sızma Ayvalık Zeytinyağı",
+      "Image": "Assets/Images/Products/AA0003-1.jpg",
+      "Image2": "Assets/Images/Products/AA0003-2.jpg",
+      "Image3": "Assets/Images/Products/AA0003-3.jpg",
+      "ProductCarouselID": "carouselID1",
+      "productCarousel": "#carousel1"
+    },
+    {
+      "StockCode": "AA0004",
+      "Category": "Zeytinyağı , Ayvalık Zeytinyağı , Naturel Sızma Zeytinyağı , Cunda Zeytinyağı",
+      "Price": "495 ₺",
+      "Description": "3 Lt Teneke Taş Baskı Soğuk Sıkım Erken Hasat Natürel Sızma Ayvalık Zeytinyağı",
+      "Image": "Assets/Images/Products/AA0004-1.jpg",
+      "Image2": "Assets/Images/Products/AA0004-2.jpg",
+      "ProductCarouselID": "carouselID2",
+      "productCarousel": "#carousel2"
+    },
+    {
+      "StockCode": "AA0005",
+      "Category": "Zeytinyağı , Ayvalık Zeytinyağı , Naturel Sızma Zeytinyağı , Cunda Zeytinyağı , Yüksek Polifenol Zeytinyağı , Ödüllü Zeytinyağı",
+      "Price": "800 ₺",
+      "Description": "5 Lt Taş Baskı Soğuk Sıkım Erken Hasat Natürel Sızma Ayvalık Zeytinyağı",
+      "Image": "Assets/Images/Products/AA0005-1.jpg",
+      "Image2": "Assets/Images/Products/AA0005-2.jpg",
+      "Image3": "Assets/Images/Products/AA0005-3.jpg",
+      "Image4": "Assets/Images/Products/AA0005-3.jpg",
+      "ProductCarouselID": "carouselID3",
+      "productCarousel": "#carousel3"
+    },
+    {
+      "StockCode": "AA0006",
+      "Category": "Zeytinyağı , Ayvalık Zeytinyağı , Naturel Sızma Zeytinyağı , Cunda Zeytinyağı , Ödüllü Zeytinyağı",
+      "Price": "1.580 ₺",
+      "Description": "10 Lt Teneke Taş Baskı Soğuk Sıkım Erken Hasat Natürel Sızma Ayvalık Zeytinyağı",
+      "Image": "Assets/Images/Products/AA0006-1.jpeg",
+      "Image2": "Assets/Images/Products/AA0006-2.jpeg",
+      "Image3": "Assets/Images/Products/AA0006-3.jpeg",
+      "ProductCarouselID": "carouselID4",
+      "productCarousel": "#carousel4"
+    },
+    {
+      "StockCode": "AA0007",
+      "Category": "Zeytinyağı , Ayvalık Zeytinyağı , Naturel Sızma Zeytinyağı , Cunda Zeytinyağı , Ödüllü Zeytinyağı",
+      "Price": "2.800 ₺",
+      "Description": "18 Lt Teneke Taş Baskı Soğuk Sıkım Erken Hasat Natürel Sızma Ayvalık Zeytinyağı",
+      "Image": "Assets/Images/Products/AA0007-1.jpeg",
+      "Image2": "Assets/Images/Products/AA0007-2.jpg",
+      "ProductCarouselID": "carouselID5",
+      "productCarousel": "#carousel5"
+    },
+    {
+      "StockCode": "AA0008",
+      "Category": "Zeytinyağı , Ayvalık Zeytinyağı , Naturel Sızma Zeytinyağı , Cunda Zeytinyağı",
+      "Price": "750 ₺",
+      "Description": "5 Lt Filiya Taş Baskı Soğuk Sıkım Natürel Sızma Ayvalık Zeytinyağı",
+      "Image": "Assets/Images/Products/AA0008-1.jpg",
+      "Image2": "Assets/Images/Products/AA0008-2.jpg",
+      "Image3": "Assets/Images/Products/AA0008-3.jpg",
+      "Image4": "Assets/Images/Products/AA0008-4.jpg",
+      "ProductCarouselID": "carouselID6",
+      "productCarousel": "#carousel6"
+    },
+    {
+      "StockCode": "AA0009",
+      "Category": "Zeytinyağı , Ayvalık Zeytinyağı , Cunda Zeytinyağı , Naturel Birinci Zeytinyağı",
+      "Price": "700 ₺",
+      "Description": "Taş Baskı Soğuk Sıkım Naturel Birinci Yemeklik Ayvalık Zeytinyağı 5 lt Teneke",
+      "Image": "Assets/Images/Products/AA0009-1.jpg",
+      "Image2": "Assets/Images/Products/AA0009-2.jpg",
+      "Image3": "Assets/Images/Products/AA0009-3.jpg",
+      "Image4": "Assets/Images/Products/AA0009-4.jpg",
+      "ProductCarouselID": "carouselID7",
+      "productCarousel": "#carousel7"
+    }
+  ],
+  "indirimUrunleri": [
+    {
+      "StockCode": "AU0039",
+      "Category": "Reçeller,Tarhana ve Sirke",
+      "Price": "89,90 ₺",
+      "Description": "Köklü Gurme Baharat Çeşitleri",
+      "Image": "Assets/Images/Products/AU0039-1.jpeg",
+      "indirimCarouselID": "carouselID",
+      "indirimCarousel": "#carousel"
+    },
+    {
+      "StockCode": "AU0044",
+      "Category": "Reçeller,Tarhana ve Sirke",
+      "Price": "44,90 ₺",
+      "Description": "Köklü Katkısız Ev Tarhanası 500 gr Acı",
+      "Image": "Assets/Images/Products/AU0044-1.jpg",
+      "Image2": "Assets/Images/Products/AU0044-2.jpeg",
+      "Image3": "Assets/Images/Products/AU0044-3.jpg",
+      "indirimCarouselID": "carouselID1",
+      "indirimCarousel": "#carousel1"
+    },
+    {
+      "StockCode": "AU0045",
+      "Category": "Reçeller,Tarhana ve Sirke",
+      "Price": "49,90 ₺",
+      "Description": "Köklü Katkısız Sebzeli Ev Tarhanası 500 gr",
+      "Image": "Assets/Images/Products/AU0045-1.jpeg",
+      "Image2": "Assets/Images/Products/AU0045-2.jpg",
+      "Image3": "Assets/Images/Products/AU0045-3.jpeg",
+      "indirimCarouselID": "carouselID2",
+      "indirimCarousel": "#carousel2"
     }
   ]
 }

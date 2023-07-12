@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AboutUs.aspx" />
     <Content Include="Assets\angular-1.8.2\angular-animate.js" />
     <Content Include="Assets\angular-1.8.2\angular-animate.min.js" />
     <Content Include="Assets\angular-1.8.2\angular-aria.js" />
@@ -4797,6 +4798,8 @@
     <Content Include="Assets\Images\Background-Svg\body-bg.svg" />
     <Content Include="Assets\Images\Background-Svg\bottom-bg.svg" />
     <Content Include="Assets\Images\Background-Svg\footer-bg.svg" />
+    <Content Include="Assets\Images\Background-Svg\footer-top1.png" />
+    <Content Include="Assets\Images\Background-Svg\footer-top2.png" />
     <Content Include="Assets\Images\Background-Svg\headerbottom-bg.svg" />
     <Content Include="Assets\Images\Background-Svg\shopping-bg.svg" />
     <Content Include="Assets\Images\Carousel-Slide\slide-1.jpeg" />
@@ -4805,21 +4808,76 @@
     <Content Include="Assets\Images\Image\müsterimemnuniyeti.jpeg" />
     <Content Include="Assets\Images\Image\siparisvedanismabanne.jpeg" />
     <Content Include="Assets\Images\Image\ucretsizkargo.jpeg" />
+    <Content Include="Assets\Images\Image\Zeytinyağı Kategori Görseli.jpg" />
     <Content Include="Assets\Images\Logo\cargo.png" />
+    <Content Include="Assets\Images\Logo\etbis.jpg" />
     <Content Include="Assets\Images\Logo\HHBadakLOGO.jpg" />
     <Content Include="Assets\Images\Logo\pay.png" />
     <Content Include="Assets\Images\Logo\security.png" />
     <Content Include="Assets\Images\Logo\winner.png" />
-    <Content Include="Assets\Images\Products\AC0002-1.jpeg" />
-    <Content Include="Assets\Images\Products\AC0002-2.jpeg" />
-    <Content Include="Assets\Images\Products\AD0003-2.jpeg" />
+    <Content Include="Assets\Images\Products\AA0002-1.jpg" />
+    <Content Include="Assets\Images\Products\AA0002-2.jpg" />
+    <Content Include="Assets\Images\Products\AA0002-3.jpg" />
+    <Content Include="Assets\Images\Products\AA0003-1.jpg" />
+    <Content Include="Assets\Images\Products\AA0003-2.jpg" />
+    <Content Include="Assets\Images\Products\AA0003-3.jpg" />
+    <Content Include="Assets\Images\Products\AA0004-1.jpg" />
+    <Content Include="Assets\Images\Products\AA0004-2.jpg" />
+    <Content Include="Assets\Images\Products\AA0005-1.jpg" />
+    <Content Include="Assets\Images\Products\AA0005-2.jpg" />
+    <Content Include="Assets\Images\Products\AA0005-3.jpg" />
+    <Content Include="Assets\Images\Products\AA0005-4.jpg" />
+    <Content Include="Assets\Images\Products\AA0006-1.jpeg" />
+    <Content Include="Assets\Images\Products\AA0006-2.jpeg" />
+    <Content Include="Assets\Images\Products\AA0006-3.jpeg" />
+    <Content Include="Assets\Images\Products\AA0007-1.jpeg" />
+    <Content Include="Assets\Images\Products\AA0007-2.jpg" />
+    <Content Include="Assets\Images\Products\AA0008-1.jpg" />
+    <Content Include="Assets\Images\Products\AA0008-2.jpg" />
+    <Content Include="Assets\Images\Products\AA0008-3.jpg" />
+    <Content Include="Assets\Images\Products\AA0008-4.jpg" />
+    <Content Include="Assets\Images\Products\AA0009-1.jpg" />
+    <Content Include="Assets\Images\Products\AA0009-2.jpg" />
+    <Content Include="Assets\Images\Products\AA0009-3.jpg" />
+    <Content Include="Assets\Images\Products\AA0009-4.jpg" />
+    <Content Include="Assets\Images\Products\AU0039-1.jpeg" />
+    <Content Include="Assets\Images\Products\AU0044-1.jpg" />
+    <Content Include="Assets\Images\Products\AU0044-2.jpeg" />
+    <Content Include="Assets\Images\Products\AU0044-3.jpg" />
+    <Content Include="Assets\Images\Products\AU0045-1.jpeg" />
+    <Content Include="Assets\Images\Products\AU0045-2.jpg" />
+    <Content Include="Assets\Images\Products\AU0045-3.jpeg" />
     <Content Include="Assets\JQuery\assets\css\Slider.css" />
     <Content Include="Assets\JQuery\assets\scripts\dene.js" />
     <Content Include="Assets\JQuery\assets\scripts\jquery-3.6.4.min.js" />
+    <Content Include="ContactUs.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Olive.aspx" />
+    <Content Include="OliveDelight.aspx" />
+    <Content Include="OliveOil.aspx" />
+    <Content Include="OurAwards.aspx" />
+    <Content Include="OurCertificates.aspx" />
+    <Content Include="OurSalesPoints.aspx" />
+    <Content Include="OurStores.aspx" />
+    <Content Include="SkinCareProducts.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WeInThePress.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -4834,7 +4892,70 @@
     <Compile Include="Index.Master.designer.cs">
       <DependentUpon>Index.Master</DependentUpon>
     </Compile>
+    <Compile Include="Olive.aspx.cs">
+      <DependentUpon>Olive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Olive.aspx.designer.cs">
+      <DependentUpon>Olive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OliveDelight.aspx.cs">
+      <DependentUpon>OliveDelight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OliveDelight.aspx.designer.cs">
+      <DependentUpon>OliveDelight.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OliveOil.aspx.cs">
+      <DependentUpon>OliveOil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OliveOil.aspx.designer.cs">
+      <DependentUpon>OliveOil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OurAwards.aspx.cs">
+      <DependentUpon>OurAwards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OurAwards.aspx.designer.cs">
+      <DependentUpon>OurAwards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OurCertificates.aspx.cs">
+      <DependentUpon>OurCertificates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OurCertificates.aspx.designer.cs">
+      <DependentUpon>OurCertificates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OurSalesPoints.aspx.cs">
+      <DependentUpon>OurSalesPoints.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OurSalesPoints.aspx.designer.cs">
+      <DependentUpon>OurSalesPoints.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OurStores.aspx.cs">
+      <DependentUpon>OurStores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OurStores.aspx.designer.cs">
+      <DependentUpon>OurStores.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SkinCareProducts.aspx.cs">
+      <DependentUpon>SkinCareProducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SkinCareProducts.aspx.designer.cs">
+      <DependentUpon>SkinCareProducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WeInThePress.aspx.cs">
+      <DependentUpon>WeInThePress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WeInThePress.aspx.designer.cs">
+      <DependentUpon>WeInThePress.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\bootstrap-5.3.0\css\bootstrap-grid.css.map" />

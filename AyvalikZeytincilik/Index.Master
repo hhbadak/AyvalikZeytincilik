@@ -17,6 +17,33 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <%--deneme--%>
+        <!--Second button-->
+        <section class="mb-3">
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler second-button" type="button" data-mdb-toggle="collapse"
+                        data-mdb-target="#navbarToggleExternalContent10"
+                        aria-controls="navbarToggleExternalContent10" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+                    </button>
+                </div>
+            </nav>
+            <div class="collapse" id="navbarToggleExternalContent10">
+                <div class="bg-light shadow-3 p-4">
+                    <button class="btn btn-link btn-block border-bottom m-0">Link 1</button>
+                    <button class="btn btn-link btn-block border-bottom m-0">Link 2</button>
+                    <button class="btn btn-link btn-block m-0">Link 3</button>
+                </div>
+            </div>
+        </section>
+
+        <%--deneme--%>
+
+
+
+
         <div class="header-navbar">
             <div class="colors">
                 <div class="container">
@@ -96,9 +123,223 @@
 
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
+        <!-- Footer -->
+        <footer class="footer-background text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <!-- Section: Social media -->
+
+                        <!-- Section: Form -->
+                        <section class="">
+
+                            <!--Grid row-->
+                            <div class="row d-flex justify-content-center">
+                                <!--Grid column-->
+                                <div class="col-auto">
+                                    <p class="pt-2">
+                                        <strong>Sign up for our newsletter</strong>
+                                    </p>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-5 col-12">
+                                    <!-- Email input -->
+                                    <div class="form-outline form-white mb-4">
+                                        <input type="email" id="form5Example21" class="form-control" />
+                                        <label class="form-label" for="form5Example21">Email address</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-auto">
+                                    <!-- Submit button -->
+                                    <button type="submit" class="btn btn-outline-light mb-4">
+                                        Subscribe
+                                    </button>
+                                </div>
+                                <!--Grid column-->
+                            </div>
+                            <!--Grid row-->
+
+                        </section>
+                        <!-- Section: Form -->
+                    </div>
+                    <div class="col-lg-4">
+
+                        <!-- Section: Social media -->
+                        <section class="mb-4">
+                            <!-- Facebook -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/hasanhuseyin.badak" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                            <!-- Twitter -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/hhbadak" role="button"><i class="fab fa-twitter"></i></a>
+
+                            <!-- Instagram -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/hhbadak/" role="button"><i class="fab fa-instagram"></i></a>
+
+                            <!-- Linkedin -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/hhbadak/" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+                            <!-- Github -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/hhbadak" role="button"><i class="fab fa-github"></i></a>
+                        </section>
+                    </div>
+
+                </div>
+
+                <!-- Section: Text -->
+
+                <!-- Section: Links -->
+                <section class="mt-4">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">HHBadak Zeytincilik</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">Hakkımızda</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Bize Ulaşın</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Mağazalarımız</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Satış Noktalarımız</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Sertifikalarımız</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Ödüllerimiz</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Basında Biz</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Ürünler</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">Kategoriler</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Markalarımız</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Yeni Ürünler</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Sponsor Ürünler</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">İndirimli Ürünler</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Alışveriş Rehberi</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">Sizden Gelen Yorumlar</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Neden HHBadak Zeytincilik?</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Sıkça Sorulan Sorular (sss)</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Ödeme</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">Hesabım</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Sipariş Takip</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Sepetiniz</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Banka Hesap Num.</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Güvenli Alışveriş</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">Gizlilik ve Güvenlik</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">İade Şartları</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Kargo Süreci</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Ürün Doğrulama</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <a href="https://www.eticaret.gov.tr/siteprofil/E4A8F2D3695247A2A31EC9751D539BE0/wwwkokluzeytincilikcomtr">
+                                <img src="Assets/Images/Logo/etbis.jpg" width="100"/></a>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+    <a class="text-white" href="https://hhbadak.dev/">HHBadak.dev</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
     </form>
+    <script src="Assets/bootstrap-5.3.0/js/bootstrap.min.js"></script>
+    <script src="Assets/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="Assets/fontawesome/js/all.min.js"></script>
+    <script>
+        document.querySelector('.second-button').addEventListener('click', function () {
+
+            document.querySelector('.animated-icon2').classList.toggle('open');
+        });
+    </script>
 </body>
-<script src="Assets/bootstrap-5.3.0/js/bootstrap.min.js"></script>
-<script src="Assets/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
-<script src="Assets/fontawesome/js/all.min.js"></script>
 </html>
