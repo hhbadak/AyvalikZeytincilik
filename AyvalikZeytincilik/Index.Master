@@ -17,79 +17,90 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <%--deneme--%>
-        <!--Second button-->
-        <section class="mb-3">
-            <nav class="navbar navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <button class="navbar-toggler second-button" type="button" data-mdb-toggle="collapse"
-                        data-mdb-target="#navbarToggleExternalContent10"
-                        aria-controls="navbarToggleExternalContent10" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
-                    </button>
-                </div>
-            </nav>
-            <div class="collapse" id="navbarToggleExternalContent10">
-                <div class="bg-light shadow-3 p-4">
-                    <button class="btn btn-link btn-block border-bottom m-0">Link 1</button>
-                    <button class="btn btn-link btn-block border-bottom m-0">Link 2</button>
-                    <button class="btn btn-link btn-block m-0">Link 3</button>
-                </div>
-            </div>
-        </section>
-
-        <%--deneme--%>
-
-
-
 
         <div class="header-navbar">
             <div class="colors">
                 <div class="container">
                     <div class="row">
                         <nav class="navbar nav col-lg-7 d-block">
-                            <a href="#">Anasayfa</a>
-                            <a href="#">|&nbsp&nbsp&nbsp Zeytinyağı</a>
-                            <a href="#">|&nbsp&nbsp&nbsp Siyah Zeytin</a>
-                            <a href="#">|&nbsp&nbsp&nbsp Yeşil Zeytin</a>
-                            <a href="#">|&nbsp&nbsp&nbsp Banka Hesap Numaraları</a>
-                            <a href="#">|&nbsp&nbsp&nbsp Müşteri Hizmetleri</a>
+                            <a href="#">anasayfa</a>
+                            <a href="#">|&nbsp&nbsp&nbsp zeytinyağı</a>
+                            <a href="#">|&nbsp&nbsp&nbsp siyah zeytin</a>
+                            <a href="#">|&nbsp&nbsp&nbsp yeşil zeytin</a>
+                            <a href="#">|&nbsp&nbsp&nbsp banka hesap numaraları</a>
+                            <a href="#">|&nbsp&nbsp&nbsp müşteri hizmetleri</a>
                         </nav>
                         <div class="col-lg-5">
                             <div class="mt-1 social">
                                 <a href="https://www.facebook.com/hasanhuseyin.badak/"><i class="fa-brands fa-facebook-f"></i></a>
                                 <a href="https://twitter.com/hhbadak">|&nbsp&nbsp<i class="fa-brands fa-twitter"></i></a>
-                                <a href="https://www.youtube.com/@HASANBADAKK">|&nbsp&nbsp<i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://www.youtube.com/@hasanbadakk">|&nbsp&nbsp<i class="fa-brands fa-youtube"></i></a>
                                 <a href="https://www.instagram.com/hhbadak/">|&nbsp&nbsp<i class="fa-brands fa-instagram"></i></a>
-                                <a href="#">|&nbsp&nbsp HHBadakBlog</a>
+                                <a href="#">|&nbsp&nbsp hhbadakblog</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container navbarBody col-md-12">
+        <div class="container navbarbody col-md-12">
             <div class="row">
                 <div class="col-md-2 mt-4 mb-4">
-                    <img src="Assets/Images/Logo/HHBadakLOGO.jpg" height="171" />
+                    <img src="assets/ımages/logo/hhbadaklogo.jpg" height="171" />
                 </div>
                 <div class="col-md-4 mt-5 ms-auto">
                     <div class="input-group">
-                        <input type="text" class="form-control" style="border-top-right-radius: 0; border-bottom-right-radius: 0;" placeholder="Hangi Ürünü Aramıştınız?" aria-label="Products" aria-describedby="basic-addon2" />
+                        <input type="text" class="form-control" style="border-top-right-radius: 0; border-bottom-right-radius: 0;" placeholder="hangi ürünü aramıştınız?" aria-label="products" aria-describedby="basic-addon2" />
                         <div class="input-group-append">
-                            <button class="btn btn-success text-white p-3 btn-outline-secondary" style="border-top-left-radius: 0; border-bottom-left-radius: 0;">Ara</button>
+                            <button class="btn btn-success text-white p-3 btn-outline-secondary" style="border-top-left-radius: 0; border-bottom-left-radius: 0;">ara</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-2 mt-5">
-                    <button class="btn float-end btn-light p-3 text-success"><i class="fa-regular fa-user"></i>&nbsp Kayıt Ol/Giriş</button>
+                    <button class="btn float-end btn-light p-3 text-success"><i class="fa-regular fa-user"></i>&nbsp kayıt ol/giriş</button>
                 </div>
-                <div class="col-md-2 mt-5 colorOlive">
-                    <button class="btn btn-light p-3 text-success"><i class="fa-solid fa-basket-shopping"></i>&nbsp Sepetim</button>
+                <div class="col-md-2 mt-5 colorolive">
+                    <button class="btn btn-light p-3 text-success"><i class="fa-solid fa-basket-shopping"></i>&nbsp sepetim</button>
                 </div>
             </div>
         </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Zeytinyağı</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Siyah Zeytin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Yeşil Zeytin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hesap Numaraları</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Müşteri Hizmetleri</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+
         <br />
         <br />
         <section class="header-bottom">
@@ -313,7 +324,7 @@
                         <!--Grid column-->
                         <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
                             <a href="https://www.eticaret.gov.tr/siteprofil/E4A8F2D3695247A2A31EC9751D539BE0/wwwkokluzeytincilikcomtr">
-                                <img src="Assets/Images/Logo/etbis.jpg" width="100"/></a>
+                                <img src="Assets/Images/Logo/etbis.jpg" width="100" /></a>
                         </div>
                         <!--Grid column-->
                     </div>
@@ -335,11 +346,18 @@
     <script src="Assets/bootstrap-5.3.0/js/bootstrap.min.js"></script>
     <script src="Assets/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
     <script src="Assets/fontawesome/js/all.min.js"></script>
+    <script src="Assets/scripts/formelemanlari.js"></script>
     <script>
-        document.querySelector('.second-button').addEventListener('click', function () {
+        // Hamburger Menü JavaScript
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburgerToggle = document.getElementById("hamburger-toggle");
+            const menu = document.querySelector(".menu");
 
-            document.querySelector('.animated-icon2').classList.toggle('open');
+            hamburgerToggle.addEventListener("change", function () {
+                menu.style.display = this.checked ? "block" : "none";
+            });
         });
+
     </script>
 </body>
 </html>

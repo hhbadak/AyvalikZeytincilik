@@ -4850,6 +4850,8 @@
     <Content Include="Assets\JQuery\assets\css\Slider.css" />
     <Content Include="Assets\JQuery\assets\scripts\dene.js" />
     <Content Include="Assets\JQuery\assets\scripts\jquery-3.6.4.min.js" />
+    <Content Include="Assets\scripts\formelemanlari.js" />
+    <Content Include="Assets\scripts\iyiyasa.js" />
     <Content Include="ContactUs.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Olive.aspx" />
