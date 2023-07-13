@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
-    <Content Include="AccountNumbers.aspx" />
     <Content Include="Assets\angular-1.8.2\angular-animate.js" />
     <Content Include="Assets\angular-1.8.2\angular-animate.min.js" />
     <Content Include="Assets\angular-1.8.2\angular-aria.js" />
@@ -4803,14 +4802,35 @@
     <Content Include="Assets\Images\Background-Svg\footer-top2.png" />
     <Content Include="Assets\Images\Background-Svg\headerbottom-bg.svg" />
     <Content Include="Assets\Images\Background-Svg\shopping-bg.svg" />
+    <Content Include="Assets\Images\Banner\ayvalik-koklu-zeytincilik-idari-bina-901x901.jpg" />
+    <Content Include="Assets\Images\Banner\satis-noktalarimiz.jpg" />
     <Content Include="Assets\Images\Banner\yesil-zeytin.jpeg" />
+    <Content Include="Assets\Images\Banner\Zeytinyağı Kategori Görseli.jpg" />
     <Content Include="Assets\Images\Carousel-Slide\slide-1.jpeg" />
     <Content Include="Assets\Images\Carousel-Slide\slide-2.jpeg" />
+    <Content Include="Assets\Images\Certificates\.jpg" />
+    <Content Include="Assets\Images\Certificates\2109582.jpg" />
+    <Content Include="Assets\Images\Certificates\2109583.jpg" />
+    <Content Include="Assets\Images\Certificates\2202766-1.jpg" />
+    <Content Include="Assets\Images\Certificates\2202766-2.jpg" />
+    <Content Include="Assets\Images\Certificates\2202766.jpg" />
+    <Content Include="Assets\Images\Certificates\2202767-1.jpg" />
+    <Content Include="Assets\Images\Certificates\2202767.jpg" />
+    <Content Include="Assets\Images\Certificates\analiz raporuu.jpg" />
+    <Content Include="Assets\Images\Certificates\deppo analiz.jpg" />
+    <Content Include="Assets\Images\Certificates\ISO 22000-1.jpg" />
+    <Content Include="Assets\Images\Certificates\ISO 9001-1.jpg" />
+    <Content Include="Assets\Images\Certificates\işletme kaydı.jpg" />
+    <Content Include="Assets\Images\Certificates\koklu-erken-hasat-analiz-raporu-2023-1.jpg" />
+    <Content Include="Assets\Images\Certificates\koklu-erken-hasat-analiz-raporu-2023-2.jpg" />
+    <Content Include="Assets\Images\Certificates\koklu-erken-hasat-analiz-raporu-2023-3.jpg" />
     <Content Include="Assets\Images\Image\kargomnerede.jpeg" />
     <Content Include="Assets\Images\Image\müsterimemnuniyeti.jpeg" />
     <Content Include="Assets\Images\Image\siparisvedanismabanne.jpeg" />
     <Content Include="Assets\Images\Image\ucretsizkargo.jpeg" />
+    <Content Include="Assets\Images\Image\yol-tarifi.jpg" />
     <Content Include="Assets\Images\Image\Zeytinyağı Kategori Görseli.jpg" />
+    <Content Include="Assets\Images\Logo\ayvalik_koklu.png" />
     <Content Include="Assets\Images\Logo\cargo.png" />
     <Content Include="Assets\Images\Logo\etbis.jpg" />
     <Content Include="Assets\Images\Logo\HHBadakLOGO.jpg" />
@@ -4858,6 +4878,37 @@
     <Content Include="Assets\Images\Products\AG0004-1.jpg" />
     <Content Include="Assets\Images\Products\AG0004-2.jpg" />
     <Content Include="Assets\Images\Products\AG0004-3.jpeg" />
+    <Content Include="Assets\Images\Products\AJ0009-1.jpeg" />
+    <Content Include="Assets\Images\Products\AJ0009-2.jpeg" />
+    <Content Include="Assets\Images\Products\AL0001-1.jpg" />
+    <Content Include="Assets\Images\Products\AL0001-2.jpeg" />
+    <Content Include="Assets\Images\Products\AL0003-1.jpeg" />
+    <Content Include="Assets\Images\Products\AL0003-2.jpeg" />
+    <Content Include="Assets\Images\Products\AL0005-1.jpg" />
+    <Content Include="Assets\Images\Products\AL0005-2.png" />
+    <Content Include="Assets\Images\Products\AL0006-1.jpg" />
+    <Content Include="Assets\Images\Products\AL0006-2.jpeg" />
+    <Content Include="Assets\Images\Products\AO0026-1.jpeg" />
+    <Content Include="Assets\Images\Products\AO0026-2.jpeg" />
+    <Content Include="Assets\Images\Products\AO0030-1.jpeg" />
+    <Content Include="Assets\Images\Products\AO0030-2.jpeg" />
+    <Content Include="Assets\Images\Products\AO0030-3.jpeg" />
+    <Content Include="Assets\Images\Products\AO0030-4.jpg" />
+    <Content Include="Assets\Images\Products\AO0030-5.jpeg" />
+    <Content Include="Assets\Images\Products\AO0030-6.jpeg" />
+    <Content Include="Assets\Images\Products\AO0030-7.jpeg" />
+    <Content Include="Assets\Images\Products\AO0032-1.jpeg" />
+    <Content Include="Assets\Images\Products\AO0033-1.jpeg" />
+    <Content Include="Assets\Images\Products\AO0034-1.jpeg" />
+    <Content Include="Assets\Images\Products\AO0035-1.jpg" />
+    <Content Include="Assets\Images\Products\AO0035-2.jpeg" />
+    <Content Include="Assets\Images\Products\AO0039-1.jpeg" />
+    <Content Include="Assets\Images\Products\AO0039-2.jpeg" />
+    <Content Include="Assets\Images\Products\AO0039-3.jpeg" />
+    <Content Include="Assets\Images\Products\AO0040-2.jpeg" />
+    <Content Include="Assets\Images\Products\AO0040-3.jpeg" />
+    <Content Include="Assets\Images\Products\AO0040-4.jpeg" />
+    <Content Include="Assets\Images\Products\AO00401-1.jpeg" />
     <Content Include="Assets\Images\Products\AU0039-1.jpeg" />
     <Content Include="Assets\Images\Products\AU0044-1.jpg" />
     <Content Include="Assets\Images\Products\AU0044-2.jpeg" />
@@ -4870,9 +4921,10 @@
     <Content Include="Assets\JQuery\assets\scripts\jquery-3.6.4.min.js" />
     <Content Include="Assets\scripts\formelemanlari.js" />
     <Content Include="Assets\scripts\iyiyasa.js" />
-    <Content Include="ContactUs.aspx" />
+    <Content Include="BankAccountNumber.aspx" />
     <Content Include="CustomerService.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="LoginPage.aspx" />
     <Content Include="Olive.aspx" />
     <Content Include="OliveDelight.aspx" />
     <Content Include="OliveOil.aspx" />
@@ -4883,6 +4935,7 @@
     <Content Include="SkinCareProducts.aspx" />
     <Content Include="Web.config" />
     <Content Include="WeInThePress.aspx" />
+    <Content Include="WhyHHBadakOlive.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AboutUs.aspx.cs">
@@ -4892,19 +4945,12 @@
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AccountNumbers.aspx.cs">
-      <DependentUpon>AccountNumbers.aspx</DependentUpon>
+    <Compile Include="BankAccountNumber.aspx.cs">
+      <DependentUpon>BankAccountNumber.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AccountNumbers.aspx.designer.cs">
-      <DependentUpon>AccountNumbers.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ContactUs.aspx.cs">
-      <DependentUpon>ContactUs.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ContactUs.aspx.designer.cs">
-      <DependentUpon>ContactUs.aspx</DependentUpon>
+    <Compile Include="BankAccountNumber.aspx.designer.cs">
+      <DependentUpon>BankAccountNumber.aspx</DependentUpon>
     </Compile>
     <Compile Include="CustomerService.aspx.cs">
       <DependentUpon>CustomerService.aspx</DependentUpon>
@@ -4926,6 +4972,13 @@
     </Compile>
     <Compile Include="Index.Master.designer.cs">
       <DependentUpon>Index.Master</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Olive.aspx.cs">
       <DependentUpon>Olive.aspx</DependentUpon>
@@ -4990,6 +5043,13 @@
     </Compile>
     <Compile Include="WeInThePress.aspx.designer.cs">
       <DependentUpon>WeInThePress.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WhyHHBadakOlive.aspx.cs">
+      <DependentUpon>WhyHHBadakOlive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WhyHHBadakOlive.aspx.designer.cs">
+      <DependentUpon>WhyHHBadakOlive.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -5310,6 +5370,7 @@
     <Content Include="deneme.json" />
     <Content Include="Json\AyvalikKirmaZeytin.json" />
     <Content Include="Assets\Images\Products\AG0004-3.webp" />
+    <Content Include="Assets\Images\Products\AO0040-.webp" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -81,8 +81,8 @@
                 </div>
             </div>
             <div class="col-lg-9">
-                <div style="height: 321px;">
-                    <img src="Assets/Images/Banner/yesil-zeytin.jpeg" />
+                <div>
+                    <img src="Assets/Images/Banner/yesil-zeytin.jpeg" height="321"/>
                 </div>
                 <div ng-app="card" ng-controller="Zeytin">
                     <div class="content">
