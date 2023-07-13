@@ -90,15 +90,95 @@
       "productCarousel": "#carousel7"
     }
   ],
-  "indirimUrunleri": [
+  "Zeytin": [
+    {
+      "StockCode": "AC002",
+      "Category": "Ayvalık Sele Zeytini , Zeytin Çeşitleri , Ayvalık Zeytini , Siyah Zeytin",
+      "Price": "125 ₺",
+      "Description": "Ayvalık Sele Zeytin 1000cc",
+      "Image": "Assets/Images/Products/AC0002-1.jpeg",
+      "Image2": "Assets/Images/Products/AC0002-2.jpeg",
+      "Image3": "Assets/Images/Products/AC0002-3.jpeg",
+      "ProductCarouselID": "carouselID",
+      "productCarousel": "#carousel"
+    },
+    {
+      "StockCode": "AC0017",
+      "Category": "Ayvalık Yuvarlama Zeytin , Siyah Zeytin , Az Tuzlu Siyah Zeytin",
+      "Price": "135 ₺",
+      "Description": "Az Tuzlu Ayvalık Yuvarlama Zeytin 1000 cc Cam Kavanoz",
+      "Image": "Assets/Images/Products/AC0017-1.jpeg",
+      "Image2": "Assets/Images/Products/AC0017-2.jpg",
+      "Image3": "Assets/Images/Products/AC0017-3.jpeg",
+      "Image4": "Assets/Images/Products/AC0017-4.jpg",
+      "ProductCarouselID": "carouselID1",
+      "productCarousel": "#carousel1"
+    },
+    {
+      "StockCode": "AG0002",
+      "Category": "Ayvalık Kırma Zeytin",
+      "Price": "100 ₺",
+      "Description": "Ayvalık Yeşil Kırma Zeytin 1000cc",
+      "Image": "Assets/Images/Products/AG0002-1.jpeg",
+      "Image2": "Assets/Images/Products/AG0002-2.jpeg",
+      "Image3": "Assets/Images/Products/AG0002-3.jpeg",
+      "ProductCarouselID": "carouselID2",
+      "productCarousel": "#carousel2"
+    },
+    {
+      "StockCode": "AG0003",
+      "Category": "Ayvalık Kırma Zeytin",
+      "Price": "100 ₺",
+      "Description": "Ayvalık Yeşil Kırma Zeytin 1000cc",
+      "Image": "Assets/Images/Products/AG0003-1.jpeg",
+      "Image2": "Assets/Images/Products/AG0003-2.jpg",
+      "Image3": "Assets/Images/Products/AG0003-3.jpg",
+      "ProductCarouselID": "carouselID2",
+      "productCarousel": "#carousel2"
+    },
+    {
+      "StockCode": "AG0004",
+      "Category": "Ayvalık Kırma Zeytin",
+      "Price": "100 ₺",
+      "Description": "Ayvalık Yeşil Kırma Zeytin 1000cc",
+      "Image": "Assets/Images/Products/AG0004-1.jpg",
+      "Image2": "Assets/Images/Products/AG0004-2.jpg",
+      "Image3": "Assets/Images/Products/AG0004-3.jpeg",
+      "ProductCarouselID": "carouselID2",
+      "productCarousel": "#carousel2"
+    }
+  ],
+  "ZeytinLokumu": [
+    {
+      "StockCode": "AG003",
+      "Category": "Ayvalık Kırma Zeytin , Zeytin Çeşitleri , Ayvalık Zeytini",
+      "Price": "190 ₺",
+      "Description": "Ayvalık Yeşil Kırma Zeytin 2000cc",
+      "Image": "Assets/Images/Products/AU0039-1.jpeg",
+      "ProductCarouselID": "carouselID",
+      "productCarousel": "#carousel"
+    },
+    {
+      "StockCode": "AG004",
+      "Category": "Ayvalık Kırma Zeytin , Zeytin Çeşitleri , Ayvalık Zeytini",
+      "Price": "425 ₺",
+      "Description": "Ayvalık Yeşil Kırma Zeytin 5000cc",
+      "Image": "Assets/Images/Products/AU0044-1.jpg",
+      "Image2": "Assets/Images/Products/AU0044-2.jpeg",
+      "Image3": "Assets/Images/Products/AU0044-3.jpg",
+      "ProductCarouselID": "carouselID1",
+      "productCarousel": "#carousel1"
+    }
+  ],
+  "CiltBakimUrunleri": [
     {
       "StockCode": "AU0039",
       "Category": "Reçeller,Tarhana ve Sirke",
       "Price": "89,90 ₺",
       "Description": "Köklü Gurme Baharat Çeşitleri",
       "Image": "Assets/Images/Products/AU0039-1.jpeg",
-      "indirimCarouselID": "carouselID",
-      "indirimCarousel": "#carousel"
+      "ProductCarouselID": "carouselID",
+      "productCarousel": "#carousel"
     },
     {
       "StockCode": "AU0044",
@@ -108,8 +188,8 @@
       "Image": "Assets/Images/Products/AU0044-1.jpg",
       "Image2": "Assets/Images/Products/AU0044-2.jpeg",
       "Image3": "Assets/Images/Products/AU0044-3.jpg",
-      "indirimCarouselID": "carouselID1",
-      "indirimCarousel": "#carousel1"
+      "ProductCarouselID": "carouselID1",
+      "productCarousel": "#carousel1"
     },
     {
       "StockCode": "AU0045",
@@ -119,8 +199,8 @@
       "Image": "Assets/Images/Products/AU0045-1.jpeg",
       "Image2": "Assets/Images/Products/AU0045-2.jpg",
       "Image3": "Assets/Images/Products/AU0045-3.jpeg",
-      "indirimCarouselID": "carouselID2",
-      "indirimCarousel": "#carousel2"
+      "ProductCarouselID": "carouselID2",
+      "productCarousel": "#carousel2"
     }
   ]
 }

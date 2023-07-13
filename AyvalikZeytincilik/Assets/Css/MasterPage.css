@@ -6,7 +6,7 @@
     height: 24px;
 }
 
-   
+
 
 .navbar-nav li a {
     margin-left: 1%;
@@ -18,12 +18,21 @@
 .social {
 }
 
-.social a {
-    padding: 1%;
-    text-decoration: none;
-    color: white;
-    font-size: 8pt;
+    .social a {
+        padding: 1%;
+        text-decoration: none;
+        color: white;
+        font-size: 8pt;
+    }
+
+.oliveSideBar {
+    color: #FFF7ED;
 }
+
+    .oliveSideBar a {
+        text-decoration: none;
+        color: #FFF7ED;
+    }
 
 .navbarHeaderColor .container .linkStyle {
     color: white;

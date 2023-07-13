@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
+    <Content Include="AccountNumbers.aspx" />
     <Content Include="Assets\angular-1.8.2\angular-animate.js" />
     <Content Include="Assets\angular-1.8.2\angular-animate.min.js" />
     <Content Include="Assets\angular-1.8.2\angular-aria.js" />
@@ -4802,6 +4803,7 @@
     <Content Include="Assets\Images\Background-Svg\footer-top2.png" />
     <Content Include="Assets\Images\Background-Svg\headerbottom-bg.svg" />
     <Content Include="Assets\Images\Background-Svg\shopping-bg.svg" />
+    <Content Include="Assets\Images\Banner\yesil-zeytin.jpeg" />
     <Content Include="Assets\Images\Carousel-Slide\slide-1.jpeg" />
     <Content Include="Assets\Images\Carousel-Slide\slide-2.jpeg" />
     <Content Include="Assets\Images\Image\kargomnerede.jpeg" />
@@ -4840,6 +4842,22 @@
     <Content Include="Assets\Images\Products\AA0009-2.jpg" />
     <Content Include="Assets\Images\Products\AA0009-3.jpg" />
     <Content Include="Assets\Images\Products\AA0009-4.jpg" />
+    <Content Include="Assets\Images\Products\AC0002-1.jpeg" />
+    <Content Include="Assets\Images\Products\AC0002-2.jpeg" />
+    <Content Include="Assets\Images\Products\AC0002-3.jpeg" />
+    <Content Include="Assets\Images\Products\AC0017-1.jpeg" />
+    <Content Include="Assets\Images\Products\AC0017-2.jpg" />
+    <Content Include="Assets\Images\Products\AC0017-3.jpeg" />
+    <Content Include="Assets\Images\Products\AC0017-4.jpg" />
+    <Content Include="Assets\Images\Products\AG0002-1.jpeg" />
+    <Content Include="Assets\Images\Products\AG0002-2.jpeg" />
+    <Content Include="Assets\Images\Products\AG0002-3.jpeg" />
+    <Content Include="Assets\Images\Products\AG0003-1.jpeg" />
+    <Content Include="Assets\Images\Products\AG0003-2.jpg" />
+    <Content Include="Assets\Images\Products\AG0003-3.jpg" />
+    <Content Include="Assets\Images\Products\AG0004-1.jpg" />
+    <Content Include="Assets\Images\Products\AG0004-2.jpg" />
+    <Content Include="Assets\Images\Products\AG0004-3.jpeg" />
     <Content Include="Assets\Images\Products\AU0039-1.jpeg" />
     <Content Include="Assets\Images\Products\AU0044-1.jpg" />
     <Content Include="Assets\Images\Products\AU0044-2.jpeg" />
@@ -4853,6 +4871,7 @@
     <Content Include="Assets\scripts\formelemanlari.js" />
     <Content Include="Assets\scripts\iyiyasa.js" />
     <Content Include="ContactUs.aspx" />
+    <Content Include="CustomerService.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Olive.aspx" />
     <Content Include="OliveDelight.aspx" />
@@ -4873,12 +4892,26 @@
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AccountNumbers.aspx.cs">
+      <DependentUpon>AccountNumbers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccountNumbers.aspx.designer.cs">
+      <DependentUpon>AccountNumbers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ContactUs.aspx.cs">
       <DependentUpon>ContactUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ContactUs.aspx.designer.cs">
       <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerService.aspx.cs">
+      <DependentUpon>CustomerService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerService.aspx.designer.cs">
+      <DependentUpon>CustomerService.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -5276,6 +5309,7 @@
     <Content Include="Index.Master" />
     <Content Include="deneme.json" />
     <Content Include="Json\AyvalikKirmaZeytin.json" />
+    <Content Include="Assets\Images\Products\AG0004-3.webp" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

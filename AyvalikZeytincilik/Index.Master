@@ -27,19 +27,19 @@
 
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Anasayfa</a>
+                            <a class="nav-link" aria-current="page" href="Default.aspx">Anasayfa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">|&nbsp&nbsp&nbspZeytinyağı</a>
+                            <a class="nav-link" href="OliveOil.aspx">|&nbsp&nbsp&nbspZeytinyağı</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">|&nbsp&nbsp&nbspZeytin</a>
+                            <a class="nav-link" href="Olive.aspx">|&nbsp&nbsp&nbspZeytin</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="width: 115px" href="#">|&nbsp&nbsp&nbspHesap Numaraları</a>
+                            <a class="nav-link" style="width: 115px" href="AccountNumbers.aspx">|&nbsp&nbsp&nbspHesap Numaraları</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="width: 120px" href="#">|&nbsp&nbsp&nbspMüşteri Hizmetleri</a>
+                            <a class="nav-link" style="width: 120px" href="CustomerService.aspx">|&nbsp&nbsp&nbspMüşteri Hizmetleri</a>
                         </li>
                     </ul>
                 </div>
