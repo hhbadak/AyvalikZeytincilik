@@ -3,30 +3,27 @@
 }
 
 .header-navbar {
-    height: 18px;
+    height: 24px;
 }
 
-    .header-navbar .colors {
-        background-color: #2D554C;
-    }
+   
 
-        .header-navbar .colors .container .row .navbar a {
-            margin-left: 1%;
-            color: white;
-            text-decoration: none;
-            font-size: 10pt;
-            font-weight: bold;
-        }
+.navbar-nav li a {
+    margin-left: 1%;
+    color: white;
+    text-decoration: none;
+    font-size: 8pt;
+}
 
-    .header-navbar .social {
-    }
+.social {
+}
 
-        .header-navbar .social a {
-            padding: 1%;
-            text-decoration: none;
-            color: white;
-            font-size: 14pt;
-        }
+.social a {
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+    font-size: 8pt;
+}
 
 .navbarHeaderColor .container .linkStyle {
     color: white;
@@ -54,7 +51,6 @@
 }
 
 .container-cargo {
-    position: sticky;
     top: 0;
     z-index: 11;
     height: 6.5rem;

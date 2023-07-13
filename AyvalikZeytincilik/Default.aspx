@@ -29,23 +29,23 @@
             </div>
             <div class="container-cargo mb-3">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-8" style="margin-left:20%">
                         <div class="row">
                             <div class="col-6 col-lg-3 mt-3">
                                 <img src="Assets/Images/Logo/cargo.png" width="75" /><br />
-                                <span>Hızlı Kargo</span>
+                                <span class="text-white">Hızlı Kargo</span>
                             </div>
                             <div class="col-6 col-lg-3 mt-3">
                                 <img src="Assets/Images/Logo/pay.png" width="65" /><br />
-                                <span>Kredi Kartı ile Ödeme</span>
+                                <span class="text-white">Kredi Kartı ile Ödeme</span>
                             </div>
                             <div class="col-6 col-lg-3 mt-3">
                                 <img src="Assets/Images/Logo/security.png" width="55" /><br />
-                                <span>Güvenli Alışveriş</span>
+                                <span class="text-white">Güvenli Alışveriş</span>
                             </div>
                             <div class="col-6 col-lg-3 mt-3">
                                 <img src="Assets/Images/Logo/winner.png" width="45" /><br />
-                                <span>Ödüllü ürünler</span>
+                                <span class="text-white">Ödüllü ürünler</span>
                             </div>
                         </div>
                     </div>
